@@ -179,6 +179,7 @@ html {
 .main__block-info-wrap {
     width: 770px;
     max-width: 100%;
+    margin-top: 64px;
 }
 .main__block-info-title {
     margin-bottom: 32px;
@@ -212,9 +213,6 @@ html {
 .main__block-info-members {
     display: flex;
     justify-content: space-around;
-}
-.main__block-info-members-box-name {
-
 }
 .main__block-info-members-box-name h3 {
     font-weight: lighter;
@@ -253,11 +251,6 @@ html {
     letter-spacing: 6px;
     line-height: 100%;
     color: #fff;
-}
-.main__block-tour-desc {
-    /* max-width: 770px; */
-}
-.main__block-tour-desc-title {
 }
 .main__block-tour-desc-title h2 {
     font-style:italic;
@@ -351,8 +344,6 @@ html {
 .main__block-tour-places-item + 
 .main__block-tour-places-item {
     margin-left: 20px;
-}
-.main__block-tour-places-item-img {
 }
 .main__block-tour-places-item-img img {
     color: #000;
@@ -690,9 +681,6 @@ input + input {
     }
     input + input {
         margin-left: 2px;
-    }
-    .main__block-contact-btn {
-        /* padding: 0 16px; */
     }
 }
 

@@ -1,5 +1,5 @@
-let blockBannerItemsLength = blockBannerItems.length
 let blockBannerItems = document.querySelectorAll('.main__block-banner-item')
+let blockBannerItemsLength = blockBannerItems.length
 
 function changeImage() {
     let i = 0
@@ -13,6 +13,7 @@ function changeImage() {
 }
 changeImage()
 
+let buyTicketButtons = document.querySelectorAll('.main__block-tour-places-item-btn button')
 let buyTicketButtonsLen = buyTicketButtons.length
 let modal = document.querySelector('.modal')
 let homeBtn = document.querySelector('.header__nav-mobi-list')
@@ -20,7 +21,6 @@ let overlay = document.querySelector('.modal__over-lay')
 let closeBtn = document.querySelector('.modal__wrap-title > div')
 let navMobiBtn = document.querySelector('.header__nav-mobi-bars')
 let navMobiBtnItem = document.querySelectorAll('.header__nav-mobi-bars-item')
-let buyTicketButtons = document.querySelectorAll('.main__block-tour-places-item-btn button')
 console.log(homeBtn)
 console.log(navMobiBtnItem)
 

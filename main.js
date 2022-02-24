@@ -54,3 +54,21 @@ navMobiBtnItem.forEach(function(item) {
 homeBtn.addEventListener('click', function() {
     document.querySelector('.header__nav-mobi-bars-wrap').classList.remove('active')
 })
+
+
+let scrollBtnDiv = document.querySelector('.scrollBtn')
+let scrollBtn = document.querySelector('.scrollBtn > a')
+console.log(scrollBtn)
+
+window.onscroll = function() {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    scrollBtnDiv.style.display = "block";
+  } else {
+    scrollBtnDiv.style.display = "none";
+  }
+}
+
+// scrollBtn.addEventListener('click', function() {
+//   document.body.scrollTop = 0; // For Safari
+//   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+// })
